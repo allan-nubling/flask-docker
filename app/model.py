@@ -9,7 +9,6 @@ def categorie_prediction(data: list):
     x_tfidf = tfidf_vect.transform(data).toarray()
     y_log = logreg.predict(x_tfidf)
     y_log_list = y_log.tolist()
-    print(y_log_list)
     i = 0
     result = []
     while (i < len(data)):
