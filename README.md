@@ -2,7 +2,7 @@
 
 ## Sobre:
 
-Este projeto visa o deployment de um modelo simples de (NER) usando o scikit learn.
+Este projeto visa o deployment de um modelo simples de (NLP) usando o scikit learn.
 
 ### O modelo
 O modelo já foi treinado anteriormente e salvo usando a lib "joblib", é um modelo simples de categorização
